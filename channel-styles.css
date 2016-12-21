@@ -1,0 +1,43 @@
+/*------------------------------------------------------------
+Plugin Name: Youtube Channel Pagination
+Plugin URI: 
+Version: 1.0
+Description: Show a youtube video and a pagination  of all video for a youtube channel.
+------------------------------------------------------------*/
+#youtube-channel-pagination{
+    position: relative;
+}
+
+@media (min-width: 1200px){
+    #youtube-channel-pagination{
+        min-height: 1140px;
+    }
+}
+
+#youtube-channel-pagination #yc-pagination-watch .title{
+    min-height: 40px;
+    max-height: 40px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+#youtube-channel-pagination #yc-pagination-watch .ycv-simple-thumb-wrap{
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+#youtube-channel-pagination #yc-pagination-watch .title{
+    cursor: pointer;
+}
+
+#youtube-channel-pagination .display-watch-video iframe{
+    background-color: black;
+}
+
+#youtube-channel-pagination .prev-next-outer{
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    width: 100%;    
+
+}
